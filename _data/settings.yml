@@ -1,24 +1,19 @@
 #-------------------------------
 # General Site Settings
-title: Jakiva
+title: www.jakiva.de
 logo: logo.svg # You can add own logo.
 description: Private Websiste
 
 #-------------------------------
 # Author Settings
 author:
-  name: Alex Rodriguez
-  image: onlinebild.jpg
+  name: Jakob schumacher
+  image: onlinebild_medium.jpg
   say-hello: Ich bin Jakob Schumacher
   bio: Infektionsepidemiologie, R, Literatur, Jekyll, Erwachsenenbildung
 
 #-------------------------------
 # Contact links
-twitter: https://twitter.com/ # Add your Twitter handle
-facebook: https://facebook.com/ # Add your Facebook handle
-dribbble: https://dribbble.com/ # Add your Dribbble handle
-instagram: https://instagram.com/ # Add your Instagram handle
-pinterest: https://pinterest.com/ # Add your Pinterest handle
 
 
 #-------------------------------
