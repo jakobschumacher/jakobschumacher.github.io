@@ -1,24 +1,27 @@
 #-------------------------------
 # General Site Settings
-title: www.jakiva.de
-logo: logo.svg # You can add own logo.
-description: Private Websiste
+title: Jakob
+logo: logo.png # You can add own logo.
+description: Webseite von Jakob Schumacher
+
 
 #-------------------------------
 # Author Settings
 author:
-  name: Jakob schumacher
-  image: onlinebild_medium.jpg
-  say-hello: Ich bin Jakob Schumacher
-  bio: Infektionsepidemiologie, R, Literatur, Jekyll, Erwachsenenbildung
+  name: Jakob Schumacher
+  image: jakob.jpg
+  say-hello: Ich bin <strong>Jakob Schumacher</strong>
+  bio: Ich bin Infektionsepidemiologie und Mediziner, Data scientist, Kurzgeschichtenschreiber und Dozent
+
 
 #-------------------------------
 # Contact links
-
+github: https://github.com/jakobschumacher
+email: jakob.schumacher@web.de
 
 #-------------------------------
 # Comment Section (Disqus)
-disqus-identifier: mr-brown # add your shortname for Disqus Comment. For example mr-brown
+disqus-identifier:
 
 
 #-------------------------------

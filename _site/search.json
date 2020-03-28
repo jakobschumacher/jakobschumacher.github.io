@@ -1,51 +1,27 @@
 [
   
     {
-      "title"    : "Find a connection with the reader",
+      "title"    : "Der gelbe Nebel",
       "category" : "",
-      "tags"     : "Resources",
-      "url"      : "/2018/07/24/find-a-connection-with-the-reader.html",
-      "date"     : "24 Jul, 2018"
+      "tags"     : "Medizinisch",
+      "url"      : "/2013/07/24/der-gelbe-nebel/",
+      "date"     : "24 Jul, 2013"
     } ,
   
     {
-      "title"    : "Why a brand is often important",
+      "title"    : "Der große Doktor",
       "category" : "",
-      "tags"     : "Style",
-      "url"      : "/2018/07/19/why-a-brand-is-often-important.html",
-      "date"     : "19 Jul, 2018"
+      "tags"     : "Dystopisch",
+      "url"      : "/2012/09/03/der-grosse-doktor/",
+      "date"     : "3 Sep, 2012"
     } ,
   
     {
-      "title"    : "Time to give gifts to everyone",
+      "title"    : "Die Heiligkeit der Dinge",
       "category" : "",
-      "tags"     : "Life",
-      "url"      : "/2018/07/17/time-to-givegifts-to-everyone.html",
-      "date"     : "17 Jul, 2018"
-    } ,
-  
-    {
-      "title"    : "Moving to a new place",
-      "category" : "",
-      "tags"     : "Home",
-      "url"      : "/2018/07/05/moving-to-a-new-place.html",
-      "date"     : "5 Jul, 2018"
-    } ,
-  
-    {
-      "title"    : "Start the day with the right habit",
-      "category" : "",
-      "tags"     : "Style",
-      "url"      : "/2018/06/25/start-the-day-with-the-right-habit.html",
-      "date"     : "25 Jun, 2018"
-    } ,
-  
-    {
-      "title"    : "Welcome to Jekyll!",
-      "category" : "",
-      "tags"     : "Jekyll",
-      "url"      : "/2018/05/29/welcome-to-jekyll.html",
-      "date"     : "29 May, 2018"
+      "tags"     : "Humorvoll",
+      "url"      : "/2010/10/12/die-heiligkeit-der-dinge/",
+      "date"     : "12 Oct, 2010"
     } 
   
 ]
