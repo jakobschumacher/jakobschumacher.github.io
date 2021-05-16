@@ -1,9 +1,57 @@
 [
   
     {
+      "title"    : "Merkblätter für Infektionskrankheiten",
+      "category" : "",
+      "tags"     : "Projekt",
+      "url"      : "/2020/09/17/merkblaetter-fuer-infektionskrankheiten/",
+      "date"     : "17 Sep, 2020"
+    } ,
+  
+    {
+      "title"    : "Youtube Tutorial für SurvNet@RKI",
+      "category" : "",
+      "tags"     : "Projekt",
+      "url"      : "/2020/05/19/youtube-tutorial-survnet/",
+      "date"     : "19 May, 2020"
+    } ,
+  
+    {
+      "title"    : "Lehrbücher für den Öffentlichen Gesundheitsdienst",
+      "category" : "",
+      "tags"     : "Projekt",
+      "url"      : "/2020/02/22/lehrbuecher-oegd/",
+      "date"     : "22 Feb, 2020"
+    } ,
+  
+    {
+      "title"    : "Mitschrift für den Weiterbildungskurs",
+      "category" : "",
+      "tags"     : "Projekt",
+      "url"      : "/2019/01/17/mitschrift-weiterbildung/",
+      "date"     : "17 Jan, 2019"
+    } ,
+  
+    {
+      "title"    : "Infektionsschutzkompendium",
+      "category" : "",
+      "tags"     : "Projekt",
+      "url"      : "/2018/12/09/infektionsschutzkompendium/",
+      "date"     : "9 Dec, 2018"
+    } ,
+  
+    {
+      "title"    : "Präsentationen",
+      "category" : "",
+      "tags"     : "Projekt",
+      "url"      : "/2018/11/01/praesentationen/",
+      "date"     : "1 Nov, 2018"
+    } ,
+  
+    {
       "title"    : "Der gelbe Nebel",
       "category" : "",
-      "tags"     : "Medizinisch",
+      "tags"     : "Kurzgeschichte and Medizinisch",
       "url"      : "/2013/07/24/der-gelbe-nebel/",
       "date"     : "24 Jul, 2013"
     } ,
@@ -11,7 +59,7 @@
     {
       "title"    : "Der große Doktor",
       "category" : "",
-      "tags"     : "Dystopisch",
+      "tags"     : "Kurzgeschichte and Dystopisch",
       "url"      : "/2012/09/03/der-grosse-doktor/",
       "date"     : "3 Sep, 2012"
     } ,
@@ -19,7 +67,7 @@
     {
       "title"    : "Die Heiligkeit der Dinge",
       "category" : "",
-      "tags"     : "Humorvoll",
+      "tags"     : "Humorvoll and Kurzgeschichte",
       "url"      : "/2010/10/12/die-heiligkeit-der-dinge/",
       "date"     : "12 Oct, 2010"
     } 

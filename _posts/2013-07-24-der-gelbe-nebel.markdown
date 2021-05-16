@@ -3,7 +3,7 @@ layout: post
 title:  "Der gelbe Nebel"
 date:   2013-07-24 18:05:55 +0300
 image:  alex-gindin-344-unsplash.jpg
-tags:   Medizinisch
+tags:   Kurzgeschichte Medizinisch
 ---
 
 Für die Welt brach der Frühling an, aber für ihn begann der Herbst. Er konne nicht genau sagen wann sich nur für ihn das Wetter geändert hatte, fest stand nur, dass es jetzt so war. Während seine Familie im Frühling lebte, fühlte er schon den Herbst durch die Ritzen des Hauses eindringen. Kalt und windig war es für ihn, morgens mit Nebel, abends mit einem kalten Schauern. Er fröstelte, während seine Frau die kurzen Röcke auspackte. "Herrlich" rief sie, "der Frühling ist da. Sieh nur wie die Sonne die Straße erleuchtet, wie die Äste sich begrünen, wie die Welt aus dem Winterschlaf erwacht und ihr graues Kleid abstreift." Er aber konnte nichts Sommerliches entdecken. Kein Lichtstrahl drang zu ihm durch. Ihm war kalt und er fühlte sich müde. Am liebsten hätte er sich nur zu Hause verkrochen, eingerollt wie ein alter Hund, dessen Knochen alt werden. "Komm hoch!" riefen die Kinder "Wir wollen schwimmen gehen". "Komm hoch!" rief die Frau, wir wollen flanieren in der Stadt". "Komm hoch!" rief die ganze Welt "Es wird gelebt!" Er aber, er wollte nicht, der Nebel war zu dicht und zu gelb.

@@ -3,7 +3,7 @@ layout: post
 title:  "Der große Doktor"
 date:   2012-09-03 15:01:35 +0100
 image:  sean-mungur-676934-unsplash.jpg
-tags:   Dystopisch
+tags:   Kurzgeschichte Dystopisch 
 ---
 
 Brennender Schmerz durchzuckt mich. Ich bin getroffen. Wie ein elektrischer Schlag durchstößt der Schmerz mein Bewusstsein, durchdringt jede Zelle und reißt ein Loch in meine Konzentration, mein linker Arm ist verletzt, wütend feuern die Schmerzfasern ihr Blitze ab, erreichen mein Gehirn und füllen meine Gedanken aus, ich bin der Schmerz, der Schmerz bin ich, alles rast, alles tobt. Dann endlich reagiert mein Anzug. Autobandagen umschließen meinen Arm, drücken die Wunde ab. Bleedstop wird eingesprizt, und während das Gel in die Wunde kriecht um weitere Blutungen zu verhindern, spüre ich schon die Injektion von Eustressin in den linken Oberschenkel. Langsam breitet sich das klare Gefühl wieder aus. Ich sehe die Welt wieder vor mir und fühle mich fokussiert. Der linke Arm fühlt sich taub an, läßt sich aber bewegen, ich überprüfe seine Funktionstüchtigkeit, der Einsatzbereitschafts-Bildschirm, der meine körperliche Leistungsfähigkeit anzeigt steht auf 79%. Wir müssen weiter, wir sind gleich da, das Ziel ist nahe. Ich spüre es. Jahrelang habe wir darauf hingearbeitet und heute soll es sein. Heute klopfen wir an die Tür des großen Doktors und wir werden laut und deutlich klopfen. Sein Zeit ist gekommen.
