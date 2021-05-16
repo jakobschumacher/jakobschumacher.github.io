@@ -10,7 +10,7 @@ description: Webseite von Jakob Schumacher
 author:
   name: Jakob Schumacher
   image: jakob.jpg
-  say-hello: Ich bin <strong>Jakob Schumacher</strong>
+  say-hello: <strong>Jakob Schumacher</strong>
   bio: Ich bin Infektionsepidemiologe und Mediziner, Data scientist, Kurzgeschichtenschreiber und Dozent
 
 
