@@ -1,0 +1,54 @@
+baseURL = 'https://jakobschumacher.github.io/'
+languageCode = 'de-de'
+title = 'Jakob Schumacher'
+theme = 'minimal'
+
+# Enable robots.txt generation
+enableRobotsTXT = true
+
+# Enable sitemap generation
+[sitemap]
+  changefreq = 'monthly'
+  filename = 'sitemap.xml'
+  priority = 0.5
+
+# Taxonomies
+[taxonomies]
+  tag = 'tags'
+
+# Permalinks
+[permalinks]
+  posts = '/:year/:month/:day/:title/'
+
+# Author and site metadata
+[params]
+  description = 'Webseite von Jakob Schumacher - Infektionsepidemiologe, Mediziner, Data scientist und Dozent'
+  author = 'Jakob Schumacher'
+  dateform = "2006-01-02"
+  dateformshort = "2006-01-02"
+  homeSubtitle = "Ich bin Infektionsepidemiologe, Mediziner, Data scientist und Dozent"
+
+  [[params.social]]
+    name = "github"
+    url = "https://github.com/jakobschumacher"
+
+# Main menu
+[[menu.main]]
+  name = 'Epi Projekte'
+  url = '/epiprojects/'
+  weight = 10
+
+[[menu.main]]
+  name = 'Tags'
+  url = '/tags/'
+  weight = 20
+
+# Output formats for search
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+# Markup settings
+[markup]
+  [markup.highlight]
+    style = 'monokai'
+    lineNos = false

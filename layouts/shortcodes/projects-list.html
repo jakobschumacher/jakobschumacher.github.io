@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="row">
+    {{ range where .Site.RegularPages "Section" "posts" }}
+      {{ if in .Params.tags "Projekt" }}
+        <div class="project-item">
+          <h3><a href="{{ .Params.webseite }}">{{ .Title }}</a></h3>
+          <p class="post-meta">{{ .Date.Format "2006-01-02" }}</p>
+          {{ if .Params.beschreibung }}
+            <p>{{ .Params.beschreibung }}</p>
+          {{ end }}
+        </div>
+      {{ end }}
+    {{ end }}
+  </div>
+</div>
