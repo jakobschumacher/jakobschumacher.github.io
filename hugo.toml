@@ -1,51 +1,70 @@
+# Site settings
 baseURL = 'https://jakobschumacher.github.io/'
 languageCode = 'de-de'
 title = 'Jakob Schumacher'
-theme = 'minimal'
+theme = 'hugo-split-theme'
 
 # Enable robots.txt generation
 enableRobotsTXT = true
 
-# Enable sitemap generation
-[sitemap]
-  changefreq = 'monthly'
-  filename = 'sitemap.xml'
-  priority = 0.5
+# Copyright
+copyright = "&copy;2025 Jakob Schumacher"
 
-# Taxonomies
-[taxonomies]
-  tag = 'tags'
-
-# Permalinks
-[permalinks]
-  posts = '/:year/:month/:day/:title/'
-
-# Author and site metadata
 [params]
-  description = 'Webseite von Jakob Schumacher - Infektionsepidemiologe, Mediziner, Data scientist und Dozent'
-  author = 'Jakob Schumacher'
-  dateform = "2006-01-02"
-  dateformshort = "2006-01-02"
-  homeSubtitle = "Ich bin Infektionsepidemiologe, Mediziner, Data scientist und Dozent"
+  # Metadata for search engines and social sharing
+  author = "Jakob Schumacher"
+  description = "Webseite von Jakob Schumacher - Infektionsepidemiologe, Mediziner, Data scientist und Dozent"
+  shareImage = "images/jakob.jpg"
 
-  [[params.social]]
-    name = "github"
-    url = "https://github.com/jakobschumacher"
+  # Whether you purchased the license from the author.
+  licensed = false
 
-# Main menu
-[[menu.main]]
-  name = 'Epi Projekte'
-  url = '/epiprojects/'
-  weight = 10
+  # Favicon
+  favicon = "favicon.ico"
 
-[[menu.main]]
-  name = 'Tags'
-  url = '/tags/'
-  weight = 20
+  # Section - Visual
+  [params.visual]
 
-# Output formats for search
-[outputs]
-  home = ["HTML", "RSS", "JSON"]
+    # Image
+    [params.visual.image]
+      enable = true
+      file = "images/jakob.jpg"
+      position = "center center"
+
+    # Video
+    [params.visual.video]
+      enable = false
+      mute = true
+
+  # Links List #1
+  [[params.links]]
+    [params.links.list1]
+      heading = "Projekte"
+
+      [[params.links.list1.link]]
+        text = "Infektionsschutzkompendium"
+        url = "https://jakobschumacher.github.io/infektionsschutzkompendium/"
+        new_tab = true
+
+      [[params.links.list1.link]]
+        text = "Merkblätter für Infektionskrankheiten"
+        url = "https://jakobschumacher.github.io/merkblaetter/"
+        new_tab = true
+
+      [[params.links.list1.link]]
+        text = "Alle Projekte"
+        url = "/epiprojects/"
+        new_tab = false
+
+  # Links List #2
+  [[params.links]]
+    [params.links.list2]
+      heading = "Kontakt"
+
+      [[params.links.list2.link]]
+        text = "GitHub"
+        url = "https://github.com/jakobschumacher"
+        new_tab = true
 
 # Markup settings
 [markup]
