@@ -1,5 +1,4 @@
-_site
-.sass-cache
-.jekyll-metadata
-Gemfile.lockpublic/
+# Hugo build output
+public/
 .hugo_build.lock
+resources/_gen/
