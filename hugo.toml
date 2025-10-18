@@ -2,7 +2,7 @@
 baseURL = 'https://jakobschumacher.github.io/'
 languageCode = 'de-de'
 title = 'Jakob Schumacher'
-theme = 'hugo-split-theme'
+theme = 'PaperMod'
 
 # Enable robots.txt generation
 enableRobotsTXT = true
@@ -14,57 +14,47 @@ copyright = "&copy;2025 Jakob Schumacher"
   # Metadata for search engines and social sharing
   author = "Jakob Schumacher"
   description = "Webseite von Jakob Schumacher - Infektionsepidemiologe, Mediziner, Data scientist und Dozent"
-  shareImage = "images/jakob.jpg"
 
-  # Whether you purchased the license from the author.
-  licensed = false
+  # Theme mode
+  defaultTheme = "auto" # auto, light, dark
+  disableThemeToggle = false
 
-  # Favicon
-  favicon = "favicon.ico"
+  # Show reading time and word count
+  ShowReadingTime = true
+  ShowWordCount = false
+  ShowBreadCrumbs = true
+  ShowPostNavLinks = true
+  ShowCodeCopyButtons = true
+  ShowRssButtonInSectionTermList = true
 
-  # Section - Visual
-  [params.visual]
+  # Homepage mode
+  [params.homeInfoParams]
+    Title = "Jakob Schumacher"
+    Content = """
+Infektionsepidemiologe. Mediziner. Data Scientist.
 
-    # Image
-    [params.visual.image]
-      enable = true
-      file = "images/jakob.jpg"
-      position = "center center"
+Willkommen auf meiner persönlichen Webseite. Ich arbeite als Infektionsepidemiologe im öffentlichen Gesundheitsdienst und bin spezialisiert auf die Überwachung und Kontrolle von meldepflichtigen Infektionskrankheiten.
 
-    # Video
-    [params.visual.video]
-      enable = false
-      mute = true
+Meine Arbeit umfasst die epidemiologische Analyse von Ausbrüchen, die Entwicklung von Präventionsstrategien und die Schulung von medizinischem Personal. Zudem entwickle ich digitale Werkzeuge und Lehrmaterialien für den öffentlichen Gesundheitsdienst.
+    """
 
-  # Links List #1
-  [[params.links]]
-    [params.links.list1]
-      heading = "Projekte"
+  # Social icons
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/jakobschumacher"
 
-      [[params.links.list1.link]]
-        text = "Infektionsschutzkompendium"
-        url = "https://jakobschumacher.github.io/infektionsschutzkompendium/"
-        new_tab = true
+# Menu
+[[menu.main]]
+  identifier = "epiprojects"
+  name = "Projekte"
+  url = "/epiprojects/"
+  weight = 10
 
-      [[params.links.list1.link]]
-        text = "Merkblätter für Infektionskrankheiten"
-        url = "https://jakobschumacher.github.io/merkblaetter/"
-        new_tab = true
-
-      [[params.links.list1.link]]
-        text = "Alle Projekte"
-        url = "/epiprojects/"
-        new_tab = false
-
-  # Links List #2
-  [[params.links]]
-    [params.links.list2]
-      heading = "Kontakt"
-
-      [[params.links.list2.link]]
-        text = "GitHub"
-        url = "https://github.com/jakobschumacher"
-        new_tab = true
+[[menu.main]]
+  identifier = "posts"
+  name = "Posts"
+  url = "/posts/"
+  weight = 20
 
 # Markup settings
 [markup]
