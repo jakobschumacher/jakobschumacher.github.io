@@ -40,17 +40,6 @@ copyright = "&copy;2025 Jakob Schumacher"
   ShowCodeCopyButtons = true
   ShowRssButtonInSectionTermList = false
 
-  # Homepage mode
-  [params.homeInfoParams]
-    Title = "Jakob Schumacher"
-    Content = """
-Infektionsepidemiologe. Mediziner. Data Scientist.
-
-Willkommen auf meiner persönlichen Webseite. Ich arbeite als Infektionsepidemiologe im öffentlichen Gesundheitsdienst und bin spezialisiert auf die Überwachung und Kontrolle von meldepflichtigen Infektionskrankheiten.
-
-Meine Arbeit umfasst die epidemiologische Analyse von Ausbrüchen, die Entwicklung von Präventionsstrategien und die Schulung von medizinischem Personal. Zudem entwickle ich digitale Werkzeuge und Lehrmaterialien für den öffentlichen Gesundheitsdienst.
-    """
-
   # Social icons
   [[params.socialIcons]]
     name = "github"
@@ -59,13 +48,6 @@ Meine Arbeit umfasst die epidemiologische Analyse von Ausbrüchen, die Entwicklu
   [[params.socialIcons]]
     name = "orcid"
     url = "https://orcid.org/0000-0002-9894-6085"
-
-# Menu
-[[menu.main]]
-  identifier = "posts"
-  name = "Posts"
-  url = "/posts/"
-  weight = 10
 
 # Markup settings
 [markup]
