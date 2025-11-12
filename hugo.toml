@@ -44,6 +44,9 @@ copyright = "&copy;2025 Jakob Schumacher"
   ShowCodeCopyButtons = true
   ShowRssButtonInSectionTermList = false
 
+  # Show tags in post metadata
+  ShowTags = true
+
   # Homepage mode
   [params.homeInfoParams]
     Title = "Jakob Schumacher"
