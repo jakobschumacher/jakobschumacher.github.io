@@ -1,9 +1,12 @@
 ---
-
 title:  "Die Heiligkeit der Dinge"
 date:   2010-10-12 15:01:35 +0300
-image:  audrius-sutkus-702652-unsplash.jpg
-tags: [Humorvoll Kurzgeschichte]
+tags: [Kurzgeschichte]
+cover:
+  image: "/images/audrius-sutkus-702652-unsplash.jpg"
+  alt: "Foto von Audrius Sutkus"
+  caption: "Foto von [Audrius Sutkus](https://unsplash.com/@audriusutkus) auf Unsplash"
+  hiddenInList: true
 ---
 
 "Zwanzig pro Stück, nicht mehr" sagte meine Frau und sah sehr entschieden dabei aus. Sie ist gut im Verhandeln, ich bin sehr stolz auf sie. Der Verkäufer wandt sich. Natürlich waren die Schalen viel mehr wert: alte, tibetische Schalen aus Stein. Überzogen mit verschlungenen Mustern, grün glänzend, Ornamente den Boden bedeckend. Prachtstücke ohne Frage. Aber der Blick meiner Frau zeigte genau den richtigen Ton, höflich und bestimmt, ohne falsche Scheu und mit dem Selbstverständniß einer die schon gewonnen hat. Sichtlich zerknirscht tippte der Händler 35 in seinen Taschenrechner ein.

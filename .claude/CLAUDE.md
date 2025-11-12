@@ -6,34 +6,31 @@ This is a personal website for Jakob Schumacher (Infektionsepidemiologe, Medizin
 
 ## Technology Stack
 
-- **Static Site Generator**: Hugo v0.123.7+
-- **Theme**: Custom minimal theme (themes/minimal/)
+- **Static Site Generator**: Hugo v0.152.2+
+- **Theme**: PaperMod (as git submodule)
 - **Language**: German (de-de)
-- **Hosting**: GitHub Pages
+- **Hosting**: GitHub Pages with GitHub Actions
+- **Deployment**: Automatic on push to master
 
 ## Project Structure
 
 - `content/posts/`: Blog posts (previously _posts/ in Jekyll)
-- `content/epiprojects.md`: Projects page
 - `static/`: Static assets (images, js, favicon)
-- `themes/minimal/`: Custom lightweight theme
-- `layouts/shortcodes/`: Custom shortcodes (e.g., projects-list.html)
+- `themes/PaperMod/`: PaperMod theme (git submodule)
+- `layouts/_default/`: Custom layout overrides (single.html)
 - `hugo.toml`: Main configuration file
+- `.github/workflows/`: GitHub Actions deployment workflow
 
 ## Key Features
 
 1. **SEO Optimized**: Built-in sitemap, robots.txt, Open Graph tags, canonical URLs
-2. **Performance**: Minimal CSS, no JavaScript dependencies, fast build times (<100ms)
-3. **Security**: No Ruby dependencies, no security vulnerabilities from Jekyll plugins
-4. **Maintainability**: Simple structure, easy to update
+2. **Performance**: Fast build times (<100ms), optimized assets
+3. **German Localization**: Date formats and UI in German
+4. **Cover Images**: Kurzgeschichten have Unsplash images (hidden in lists, shown in posts)
+5. **Project Links**: Posts with "webseite" field display clickable links
+6. **Automatic Deployment**: GitHub Actions workflow for push-to-deploy
 
 ## Development Workflow
-
-### Building the Site
-
-```bash
-hugo --gc --minify
-```
 
 ### Running Development Server
 
@@ -41,11 +38,21 @@ hugo --gc --minify
 hugo server -D
 ```
 
+### Building the Site
+
+```bash
+hugo --gc --minify
+```
+
 ### Creating New Posts
 
 ```bash
 hugo new posts/post-title.md
 ```
+
+### Deployment
+
+Push to master branch - GitHub Actions automatically builds and deploys to GitHub Pages.
 
 ## Content Guidelines
 
@@ -60,17 +67,27 @@ Posts should include:
 ### Project Posts
 
 Project posts use additional front matter:
-- `webseite`: URL to the project
+- `webseite`: URL to the project (automatically linked below description)
 - `beschreibung`: Description of the project
+
+### Kurzgeschichten (Short Stories)
+
+Short stories can include cover images:
+```yaml
+cover:
+  image: "/images/filename.jpg"
+  alt: "Image description"
+  caption: "Photo credit with link"
+  hiddenInList: true
+```
 
 ## Theme Customization
 
-The minimal theme includes:
-- **Head partial**: SEO meta tags, minimal inline CSS
-- **Header partial**: Site title, navigation, subtitle
-- **Footer partial**: Copyright notice
-- **Layouts**: list.html, single.html, index.html
-- **Shortcodes**: projects-list.html for displaying projects
+PaperMod theme with custom modifications:
+- **Custom single.html layout**: Displays webseite URL for project posts
+- **German date format**: "2. January 2006" format
+- **Theme toggle disabled**: Light mode only
+- **Configuration**: All in hugo.toml (params must come before sub-sections)
 
 ## Important Notes
 
@@ -82,9 +99,16 @@ The minimal theme includes:
 
 ## Migration History
 
-Migrated from Jekyll on 2025-10-17:
+**2025-10-17**: Migrated from Jekyll to Hugo
 - Posts moved from _posts/ to content/posts/
 - Converted .markdown to .md
 - Updated front matter for Hugo compatibility
 - Created custom minimal theme
-- Preserved all content and static assets
+
+**2025-11-12**: Updated to PaperMod theme
+- Switched from custom theme to PaperMod
+- Added German localization
+- Implemented cover images for short stories
+- Added automatic webseite URL display
+- Set up GitHub Actions deployment
+- Disabled theme toggle (light mode only)

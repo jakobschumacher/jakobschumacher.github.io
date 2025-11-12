@@ -19,6 +19,10 @@ copyright = "&copy;2025 Jakob Schumacher"
   # German date format
   DateFormat = "2. January 2006"
 
+  # Theme mode (toggle disabled = no moon/sun button)
+  defaultTheme = "light" # auto, light, dark
+  disableThemeToggle = true
+
   # Logo in header
   [params.label]
     text = "Jakob Schumacher"
@@ -31,10 +35,6 @@ copyright = "&copy;2025 Jakob Schumacher"
     favicon16x16 = "/favicon.ico"
     favicon32x32 = "/favicon.ico"
     apple_touch_icon = "/logo.png"
-
-  # Theme mode (toggle disabled = no moon/sun button)
-  defaultTheme = "light" # auto, light, dark
-  disableThemeToggle = true
 
   # Show reading time and word count
   ShowReadingTime = false
