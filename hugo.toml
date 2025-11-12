@@ -15,9 +15,22 @@ copyright = "&copy;2025 Jakob Schumacher"
   author = "Jakob Schumacher"
   description = "Webseite von Jakob Schumacher - Infektionsepidemiologe, Mediziner, Data scientist und Dozent"
 
-  # Theme mode
-  defaultTheme = "auto" # auto, light, dark
-  disableThemeToggle = false
+  # Logo in header
+  [params.label]
+    text = "Jakob Schumacher"
+    icon = "/logo.png"
+    iconHeight = 35
+
+  # Favicon
+  [params.assets]
+    favicon = "/favicon.ico"
+    favicon16x16 = "/favicon.ico"
+    favicon32x32 = "/favicon.ico"
+    apple_touch_icon = "/logo.png"
+
+  # Theme mode (toggle disabled = no moon/sun button)
+  defaultTheme = "light" # auto, light, dark
+  disableThemeToggle = true
 
   # Show reading time and word count
   ShowReadingTime = true
@@ -25,7 +38,7 @@ copyright = "&copy;2025 Jakob Schumacher"
   ShowBreadCrumbs = true
   ShowPostNavLinks = true
   ShowCodeCopyButtons = true
-  ShowRssButtonInSectionTermList = true
+  ShowRssButtonInSectionTermList = false
 
   # Homepage mode
   [params.homeInfoParams]
@@ -43,18 +56,16 @@ Meine Arbeit umfasst die epidemiologische Analyse von Ausbrüchen, die Entwicklu
     name = "github"
     url = "https://github.com/jakobschumacher"
 
-# Menu
-[[menu.main]]
-  identifier = "epiprojects"
-  name = "Projekte"
-  url = "/epiprojects/"
-  weight = 10
+  [[params.socialIcons]]
+    name = "orcid"
+    url = "https://orcid.org/0000-0002-9894-6085"
 
+# Menu
 [[menu.main]]
   identifier = "posts"
   name = "Posts"
   url = "/posts/"
-  weight = 20
+  weight = 10
 
 # Markup settings
 [markup]
