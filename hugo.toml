@@ -1,6 +1,7 @@
 # Site settings
 baseURL = 'https://jakobschumacher.github.io/'
 languageCode = 'de-de'
+defaultContentLanguage = 'de'
 title = 'Jakob Schumacher'
 theme = 'PaperMod'
 
@@ -14,6 +15,9 @@ copyright = "&copy;2025 Jakob Schumacher"
   # Metadata for search engines and social sharing
   author = "Jakob Schumacher"
   description = "Webseite von Jakob Schumacher - Infektionsepidemiologe, Mediziner, Data scientist und Dozent"
+
+  # German date format
+  DateFormat = "2. January 2006"
 
   # Logo in header
   [params.label]
@@ -33,12 +37,23 @@ copyright = "&copy;2025 Jakob Schumacher"
   disableThemeToggle = true
 
   # Show reading time and word count
-  ShowReadingTime = true
+  ShowReadingTime = false
   ShowWordCount = false
   ShowBreadCrumbs = true
   ShowPostNavLinks = true
   ShowCodeCopyButtons = true
   ShowRssButtonInSectionTermList = false
+
+  # Homepage mode
+  [params.homeInfoParams]
+    Title = "Jakob Schumacher"
+    Content = """
+  
+ **Infektionsepidemiologe. Mediziner. Data Scientist.**  
+  
+
+Willkommen auf meiner persönlichen Webseite. Ich arbeite als Infektionsepidemiologe im öffentlichen Gesundheitsdienst und bin spezialisiert auf die Überwachung und Kontrolle von meldepflichtigen Infektionskrankheiten. Meine Arbeit umfasst die Surveillance von Infektionskrankheiten, Softwareentwicklung und epidemiologische Analyse und Lehre im Öffentlichen Gesundheitsdienst. 
+    """
 
   # Social icons
   [[params.socialIcons]]
@@ -48,6 +63,7 @@ copyright = "&copy;2025 Jakob Schumacher"
   [[params.socialIcons]]
     name = "orcid"
     url = "https://orcid.org/0000-0002-9894-6085"
+
 
 # Markup settings
 [markup]
