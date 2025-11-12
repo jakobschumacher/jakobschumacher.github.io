@@ -1,5 +1,5 @@
 # Site settings
-baseURL = 'https://jakobschumacher.github.io/'
+baseURL = 'https://jakobschumacher.de/'
 languageCode = 'de-de'
 defaultContentLanguage = 'de'
 title = 'Jakob Schumacher'
@@ -18,6 +18,9 @@ copyright = "&copy;2025 Jakob Schumacher"
 
   # German date format
   DateFormat = "2. January 2006"
+
+  # Google Search Console Verification (tragen Sie hier Ihren Code ein)
+  # googleSiteVerification = "IHR-VERIFIKATIONS-CODE"
 
   # Theme mode (toggle disabled = no moon/sun button)
   defaultTheme = "light" # auto, light, dark
